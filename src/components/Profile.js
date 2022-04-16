@@ -42,7 +42,7 @@ export default function Profile(props) {
                     <p>  {musician.band ? "Anzahl: " + musician.anzahl  : <></>} </p>
 
                 </div>
-                <button class="btn btn-primary">mit {musician.name} chatten</button>
+                <button class="btn btn-primary">mit {musician.name} chatten +</button>
             </div>           
         </div>
     );
