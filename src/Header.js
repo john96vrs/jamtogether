@@ -19,7 +19,7 @@ export default function Header() {
           
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container">
-        <Link class="logo" to="/">JamTogether</Link>
+            <Link class="logo" to="/">JamTogether <i class="uil uil-music-note"></i></Link>      
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>

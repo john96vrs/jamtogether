@@ -2,6 +2,8 @@ import React, { Component, Fragment, useEffect, useState  } from 'react';
 import '../index.css';
 import logo from './person.png'
 import Musicians from './Musicians';
+import Feed from './Feed';
+import Filter from './Filter';
 
 
 export default function Discover() {
@@ -23,11 +25,11 @@ export default function Discover() {
             </div>          
         </div>
 
-        <div class="container-xl">
+        <div class="container">
             <div class="discover-content">
-                <div class="feed">Feed</div>
+                <Feed />
                 <Musicians />
-                <div class="filter">Filter</div>
+                <Filter />
             </div>
         </div>
         
