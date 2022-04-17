@@ -34,6 +34,7 @@ export default function Profile(props) {
     return (
         <div class="profile">
             <div class="profile-content">
+                <h1>änderung gepusht</h1>
                 <h2>Name: {musician.name} </h2>
                 <div>
                     <h3>
