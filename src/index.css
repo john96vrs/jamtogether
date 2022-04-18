@@ -241,3 +241,45 @@ box-shadow: inset 20px 20px 36px #050404,
     .filter {
         width: 20%
     }
+
+    .input-city {
+        padding: 8px 11px;
+        border: 1px solid #d2d2d2;
+        border-radius: 0;
+        background-color: #fff;
+        font-size: 16px;
+        line-height: 1.375;
+        box-shadow: none;
+        vertical-align: middle;
+    }
+
+    .css-1v5z18m {
+        width: 200px !important;
+    }
+
+    .distance-label {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /** Profile own**/
+    
+    .profile-nav a{
+        color: black !important
+    }
+
+    nav {
+        padding: 0 !important
+    }
+
+    li.nav-item.active {
+        height: inherit;
+        min-width: 33% !important;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        border: 1px solid black !important;text-align: center;   
+        border-top: 0px !important;
+        border-bottom: 0px !important;
+     }
+    
+    

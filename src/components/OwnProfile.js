@@ -19,12 +19,21 @@ export default function OwnProfile() {
             </div>          
         </div>
 
-        
-        <h1>Hier kommt man auf sein Profil. Profilinformationen werden hier angezeigt</h1>
-   
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light profile-nav">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">       
+                        <li class="nav-item active"><a class="nav-link" href="#">Profil</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#">Fotos</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#">Videos</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1>Hier kommt man auf sein Profil. Profilinformationen werden hier angezeigt</h1>
+        </div>
+
     </div>
-   
-       
+    
   );
 }
 
